@@ -201,6 +201,7 @@ button:hover {
     line-height: 1.4;
     margin-bottom: 4px;
     color:#030303;
+    
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
@@ -208,10 +209,15 @@ button:hover {
 }
 .channel-name {
     font-size: 13px;
-    color: #060606;
+    color: #606060;
     margin-bottom: 2px;
 }
 .video-meta {
     font-size: 13px;
-    color: #060606;
+    color: #606060;
+}
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 16px;
 }
